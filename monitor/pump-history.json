@@ -1,5 +1,37 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-08T20:55:42 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-08T20:55:42", 
+    "_body": "", 
+    "_head": "01000c000c001a00", 
+    "amount": 0.3, 
+    "unabsorbed": 0.65, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6af7346810"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-07-08T20:55:26 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-07-08T20:55:26", 
+    "_body": "c23647", 
+    "_head": "3f1b", 
+    "amount": 220, 
+    "_date": "5af7946810"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-08T20:55:26 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-08T20:55:26", 
+    "_body": "", 
+    "_head": "0adc", 
+    "amount": 220, 
+    "_date": "5af7346810"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-08T20:45:53 head[2], body[0] op[0x16]", 
