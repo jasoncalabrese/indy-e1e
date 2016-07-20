@@ -7,79 +7,71 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-20T16:12:36.000Z", 
+      "timestamp": "2016-07-20T16:17:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 64.525, 
-    "clock": "2016-07-20T09:12:18-07:00"
+    "clock": "2016-07-20T09:17:18-07:00"
   }, 
   "uploader": {
-    "battery": 84, 
-    "batteryVoltage": 4022
+    "battery": 83, 
+    "batteryVoltage": 4011
   }, 
   "openaps": {
     "suggested": {
-      "bg": 158, 
+      "bg": 150, 
       "temp": "absolute", 
-      "snoozeBG": 111, 
-      "timestamp": "2016-07-20T16:13:59.000Z", 
+      "snoozeBG": 103, 
+      "timestamp": "2016-07-20T16:18:53.000Z", 
       "predBGs": {
         "IOB": [
-          158, 
-          151, 
-          145, 
-          139, 
-          134, 
-          128, 
-          124, 
-          120, 
-          116, 
-          113, 
-          111, 
-          109, 
+          150, 
+          142, 
+          135, 
+          129, 
+          122, 
+          117, 
+          112, 
           108, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          108, 
-          108, 
-          108, 
-          109, 
-          109, 
-          110, 
-          110, 
-          110, 
-          111, 
-          111, 
-          111, 
-          112
+          104, 
+          101, 
+          99, 
+          98, 
+          97, 
+          97, 
+          96, 
+          96, 
+          96, 
+          96, 
+          96, 
+          96, 
+          97, 
+          97, 
+          97, 
+          97, 
+          98, 
+          98, 
+          98, 
+          99, 
+          99, 
+          100, 
+          100, 
+          100, 
+          101, 
+          101, 
+          101, 
+          101, 
+          102
         ]
       }, 
-      "reason": "COB: 0, Dev: -2, BGI: -4.19, ISF: 94.1, Target: 130; Eventual BG 111 < 120, setting -0.325U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
+      "reason": "COB: 0, Dev: -11, BGI: -4, ISF: 94.1, Target: 130; Eventual BG 103 < 120, setting -0.675U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 111, 
-      "tick": -7, 
-      "IOB": 0.477
+      "eventualBG": 103, 
+      "tick": -8, 
+      "IOB": 0.385
     }, 
     "iob": [
-      {
-        "netbasalinsulin": 0.45, 
-        "activity": 0.0089, 
-        "basaliob": 0.287, 
-        "time": "2016-07-20T16:12:18.000Z", 
-        "hightempinsulin": 0.9, 
-        "bolussnooze": 0, 
-        "iob": 0.477
-      }, 
       {
         "netbasalinsulin": 0.45, 
         "activity": 0.0085, 
@@ -394,6 +386,15 @@
         "hightempinsulin": 0, 
         "bolussnooze": 0, 
         "iob": -0.003
+      }, 
+      {
+        "netbasalinsulin": -0.2, 
+        "activity": -0.0002, 
+        "basaliob": -0.001, 
+        "time": "2016-07-20T19:12:18.000Z", 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": -0.001
       }
     ], 
     "enacted": {
@@ -447,41 +448,41 @@
       [
         "916.564", 
         5, 
-        -68
+        -67
       ], 
       [
         "916.588", 
         5, 
-        -67
+        -61
       ], 
       [
         "916.612", 
         5, 
-        -64
+        -62
       ], 
       [
         "916.636", 
         5, 
-        -62
+        -60
       ], 
       [
         "916.660", 
         4, 
-        -69
+        -70
       ], 
       [
         "916.684", 
         4, 
-        -69
+        -70
       ], 
       [
         "916.708", 
         5, 
-        -73
+        -75
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-07-20T16:12:11.000Z", 
+    "timestamp": "2016-07-20T16:17:11.000Z", 
     "usedDefault": false
   }
 }
