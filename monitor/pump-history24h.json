@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-07-20T15:04:49 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-20T15:04:49", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "71c40f5410"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-20T15:04:49 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-20T15:04:49", 
+    "_body": "00", 
+    "_head": "3316", 
+    "rate": 0.55, 
+    "_date": "71c40f5410"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-20T14:48:00 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-20T14:48:00", 
     "_body": "", 
@@ -4428,57 +4447,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "76c40c5310"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-07-19T11:53:11 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-19T11:53:11", 
-    "_body": "", 
-    "fixed": 0.3, 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "_date": "4bf50b1310"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-07-19T11:52:54 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-19T11:52:54", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "76f40b5310"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-19T11:52:54 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-19T11:52:54", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "76f40b5310"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-07-19T11:49:59 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-19T11:49:59", 
-    "_body": "", 
-    "fixed": 0.3, 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "_date": "7bf10b1310"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-07-19T11:48:19 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-19T11:48:19", 
-    "_body": "", 
-    "fixed": 0.3, 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "_date": "53f00b1310"
   }
 ]
